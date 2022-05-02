@@ -51,6 +51,8 @@ namespace ParticleTools
             ui.HorizontalLayout(4f);
             ui.Text("Fade Key Editor");
             
+            //TODO: figure out how to allign the text properly
+            
             ui.NestOut();
             ui.HorizontalLayout(4f);
             var colortext = ui.Text("Color", alignment: Alignment.MiddleLeft);
